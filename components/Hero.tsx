@@ -9,8 +9,8 @@ export default function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
       "Hello, I'm Xiao-Yin Chen",
-      "PHD Student",
-      "Professional Researcher",
+      "PhD Candidate",
+      "Social Science Researcher",
     ],
     loop: true,
     delaySpeed: 2000,

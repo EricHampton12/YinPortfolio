@@ -28,23 +28,26 @@ function About({}: Props) {
           opacity: 1,
         }}
         src="https://media-exp1.licdn.com/dms/image/C5603AQHPWs2twPsUPg/profile-displayphoto-shrink_800_800/0/1589412032667?e=1669852800&v=beta&t=W0HzkHCzANNcX6hW9TwMg5Hkav-cO2zQQXPNkylPouU"
-        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]"
+        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px] mt-20"
       />
-      <div className="space-y-10 px-0 md:px-10">
-        <h4 className="text-4xl font-semibold">
-          Here is a{" "}
-          <span className="underline decoration-[#fdcdcd]">little</span>{" "}
-          background
+      <div className="space-y-10 px-0 md:px-10 mt-2">
+        <h4 className="text-4xl font-semibold mt-2">
+          Here is a little{" "}
+          <span className="underline decoration-[#fdcdcd]">background</span>{" "}
         </h4>
         <p className="text-base">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Reprehenderit placeat incidunt aspernatur eum praesentium facere
-          cupiditate aut aperiam accusantium quas sint rem, sit inventore
-          repellendus. Quam ducimus error recusandae hic. Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Et odit placeat alias consequatur!
-          Obcaecati, explicabo numquam. Sapiente molestias dolor, repellat
-          aliquid, animi pariatur dolore nesciunt quas unde voluptas consectetur
-          repudiandae!
+          Xiao-Yin Chen (she/her) is a doctoral candidate in the Applied
+          Cognition and Development program at the University of Georgia. She
+          obtained both her Bachelor’s Degree in psychology and Master’s Degree
+          in educational psychology at the University of Kentucky. Her research
+          focuses on motivation in educational settings. She primarily studies
+          social influences of student motivation and the ways in which
+          educators can support students’ motivation through interventions. Her
+          greater purpose is to support students who are minoritized in college
+          settings (e.g., women in STEM, first-generation college students,
+          and/or historically marginalized racial/ethnic students). Her work is
+          grounded by her experiences growing up in eastern Kentucky, Appalachia
+          as a second-generation Chinese-American.
         </p>
       </div>
     </motion.div>
