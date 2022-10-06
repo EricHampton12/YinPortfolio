@@ -3,11 +3,13 @@ import Head from "next/head";
 import About from "../components/About";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import Projects from "../components/Projects";
+import Skills from "../components/Skills";
 import WorkExperience from "../components/WorkExperience";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-[rgba(174,192,252)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
+    <div className="bg-[#565658] text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
       <Head>
         <title>Xiao Yin Chen Portofolio</title>
       </Head>
@@ -25,10 +27,13 @@ const Home: NextPage = () => {
         <WorkExperience />
       </section>
 
-      {/* Skills */}
+      <section id="skills" className="snap-start">
+        <Skills />
+      </section>
 
-      {/* Projects */}
-
+      <section id="projects" className="snap-start">
+        <Projects />
+      </section>
       {/* Contact Me */}
     </div>
   );
